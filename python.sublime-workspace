@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"lib",
+				"library"
+			],
+			[
 				"with",
 				"without"
 			],
@@ -14,10 +18,6 @@
 			[
 				"mac",
 				"machine"
-			],
-			[
-				"lib",
-				"libraries"
 			],
 			[
 				"LIn",
@@ -219,10 +219,74 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "---\nlayout:     post\ntitle:      Hello world\ndate:       2016-02-14 \nsummary:    Getting started with the blogging like a hacker stuff. \ncategories: howto \n---\n\n\n\n\n\n# How to access Twitter data from Python? \n\n- [Here are a bunch of python libraries to access Twitter data](https://dev.twitter.com/resources/twitter-libraries#python)\n- [Tweepy is Twitter library in Python](https://github.com/tweepy/tweepy)\n\n- [They are using Tweepy. That is a problem](https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/)\n- [Another one using Tweepy. If only Tweepy will work.](http://pythoncentral.io/introduction-to-tweepy-twitter-for-python/)\n\n- [Tweepy does not seem to install on my machine](https://stackoverflow.com/questions/20441931/installing-tweepy-on-os-x  )\n\n### Install Tweepy. In devenv. \n\n```\n-- where are you. \n$ pwd \n/Users/parthabhattacharjee/git/python002\n\n-- call the nice devenv\n$ virtualenv devenv\nNew python executable in /Users/parthabhattacharjee/git/python002/devenv/bin/python\nInstalling setuptools, pip, wheel...done.\n\n-- check if we loaded the correct python\n$ which python \n/usr/bin/python\n\n-- bring up the devenv\n$ source devenv/bin/activate\n(devenv) $ which python \n/Users/parthabhattacharjee/git/python002/devenv/bin/python\n\n-- install tweepy. \n(devenv) $ pip install tweepy \nCollecting tweepy\n--\n-- some lines deleted for brevity \n-- \nSuccessfully installed certifi-2017.4.17 chardet-3.0.3 idna-2.5 oauthlib-2.0.2 requests-2.16.5 requests-oauthlib-0.8.0 tweepy-3.5.0 urllib3-1.21.1\n```\n\n### Register the app in Twitter\n\n- https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/\n- Go to https://apps.twitter.com\n- Provide, name - MiningKaunJovi, description, and website. \n\n- Consumer Key (API Key)  km9ZVmO42qCtcjcukbk4B54qS\n- Consumer Secret (API Secret)  NeURzc08wrGhA0emAxpjdJx8MOK4RsyXBDl4VDADQ6rLKTQub6\n- Access Token  719722333632643076-4fNGpXADGQgapb1OAk3bMAQRXfNZbqg\n- Access Token Secret qRwx3YMeIB42iDpInontLtVuMaMnWJTmlr2twOsArbcnc\n\n\n\n### Install Virtual Environment for Python\n\n\n```bash\n\n-- Install virtualenv\n\n$ sudo pip install virtualenv\n\n$ virtualenv --version \n15.1.0\n\n-- go to the folder where you want to create your project. \n\n$ pwd \n/Users/parthabhattacharjee/git/python002\n\n-- Create a virtualenv. Pick any name. \n\n$ virtualenv devenv\nNew python executable in /Users/parthabhattacharjee/git/python002/devenv/bin/python\nInstalling setuptools, pip, wheel...done.\n\n-- This is the system python\n\n$ which python \n/usr/bin/python\n\n-- Activate the virtual ennvironment that you created. \n\n$ source devenv/bin/activate\n(devenv) $ which python \n/Users/parthabhattacharjee/git/python002/devenv/bin/python\n\n-- Now you can run your code for this virtual env. \n\n(devenv) $ python hello.py\nHello world\n\n-- Once you are done you can come out of the dev Environment\n\n(devenv) $ deactivate\n\n-- back here your python has shifted back to the system Python\n\n$ which python \n/usr/bin/python\n\n```\n\n- http://python-guide-pt-br.readthedocs.io/en/latest/dev/virtualenvs/\n- https://tinwhiskers.net/setting-up-your-python-environment-with-pip-virtualenv-and-pycharm-mac/\n- http://technologist.pro/development/developing-in-python-using-python-virtual-environments\n\n\n### Virtual Environment with Sublime\n\n- [Using Python Virtual Environments with Sublime Text](http://technologist.pro/development/using-python-virtual-environments-with-sublime-text)\n- [VirtualEnv Builds in Sublime Text 3](https://inkdroid.org/2015/05/05/virtualenv-builds-in-sublime-text-3/)\n\n```\n{\n  \"build_systems\":\n  [\n    {\n      \"name\": \"PYTHON_VENV\",\n      \"shell_cmd\": \"env/bin/python\"\n    }\n  ],\n  \"folders\":\n  [\n    {\n      \"path\": \".\"\n    },\n    {\n      \"path\": \"/Users/parthabhattacharjee/kaunjovi.github.io/_posts\"\n    }\n  ],\n  \"virtualenv\": \"/Users/parthabhattacharjee/git/python002/devenv\"\n}\n\n```\n\n\n\n## How do I know if tweepy is successfully installed on my machine? \n## How to find out what all libraries are installed in my machine using pip? \n## Where are the libraries installed by pip in my machine? \n\n\npip freeze \n\n\n\n\n# Which all packages do I have in my Sublime? \n\n# How to install Anaconda in Sublime? \n\n[What all does Anaconda get for me in Sublime?](http://damnwidget.github.io/anaconda/)\n\n\n$ echo \"export PATH=~/bin:$PATH\" >> ~/.profile\n\nS3cure123\nS3cure098\n\n\n\n# Big Data \n[Big Data and Hadoop Essentials on Udemy](https://www.udemy.com/cart/subscribe/course/225796/)\n\nVolume \nVariety : Not strictly structured data. \nVelocity : Rate of growth of data. \n\nData acts as DSS for an organisation. Decision Sypport System. \n\nDigital nervous system\nSense > Interpret > Decide > Act \n\nDoug and Mike \n\n- Challanges of BigData \n  - Storage : store stuff that is suitable for computation. \n  - Computational Efficiency : \n  - Data loss \n  - Cost \n\n# Kafka \n\n[this is a 2 part series. TODO](https://www.linkedin.com/pulse/kafka-streams-part-2-vishnu-viswanath?trk=v-feed&lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BxFPgkg0tBf0TVJ%2B%2BSGNc%2Bg%3D%3D)\n\n\n# Hadoop \n\n[Big Data and Hadoop Essentials on Udemy](https://www.udemy.com/cart/subscribe/course/225796/)\n[Hadoop Starter Kit](https://www.udemy.com/hadoopstarterkit/)\n\n- Hadoop vs \n  + RDBMS \n  + Grid computing \n  \n\n\n\nMapReduce \nHDFS \nName node manages the file system. \nData nodes \n\nMap is distributed amongst Nodes. \nReduce is only in one. \n\nCode moves to the data. \nOn read schema ? \n\nPig : scripting language for data scientists. \nHive : SQL like stuff on MapReduce. Get reduced to MapReduce jobs. \nSqoop / Flume : \nHBase : \n\n\n# Mahout \n\n# NoSQL \n\n\n\n# Spark\n\n\n\n\n# zookeeper\n\nhttp://www.tutorialspoint.com/zookeeper/\n\n\n# Song \n\n[Kichudine mone mone](https://www.youtube.com/watch?v=Eg4RR8L74m4)\n\n\n# Quant\n\nThe common choices of modelling languages these days include \nR, the open-source statistical language; \nPython, with its extensive data analysis libraries; \nor MatLab. \n\n\n[The Self Learning Quant](https://hackernoon.com/the-self-learning-quant-d3329fcc9915)\n\n# R \n\n\n# Python\n\n- [Intro to Python for Data Science](https://www.datacamp.com/courses/intro-to-python-for-data-science)\n- [seems to be a good hands on tutorial. TODO](https://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2/)\n- [Is it by the python author?](http://python-history.blogspot.in/2009/01/pythons-design-philosophy.html)\n- [Programming Foundations with Python](https://in.udacity.com/course/programming-foundations-with-python--ud036/)\n- [Introduction to Python for Data Science by edX](https://www.edx.org/course/introduction-python-data-science-microsoft-dat208x-5)\n- [Python from codecademy](https://www.codecademy.com/learn/python)\n- [Quickstart tutorial SciPy](https://docs.scipy.org/doc/numpy-dev/user/quickstart.html)\n- [Nice discussion on quora](https://www.quora.com/How-should-I-start-learning-Python-for-Data-Science)\n- [The Case Against Python 3](https://learnpythonthehardway.org/book/nopython3.html)\n\n## Python | pip \npip (package manager for Python)\n[How to install pip on mac](https://stackoverflow.com/questions/17271319/how-do-i-install-pip-on-macos-or-os-x)\n\n```\n$ python --version \nPython 2.7.10\n\n$ pip -V\npip 9.0.1 from /Library/Python/2.7/site-packages (python 2.7)\n\n```\n\n## Python, offline books \n\n- [Book | Python for dummies](http://file.allitebooks.com/20151226/Python%20for%20Data%20Science%20For%20Dummies.pdf)\n- [Book | Python for Data Analysis](http://www.cin.ufpe.br/~embat/Python%20for%20Data%20Analysis.pdf)\n\n## Python | Installing through Anaconda bundle. \n\n- [Anaconda, home page](https://www.continuum.io/downloads)\n- [youtube tutorial for installing Anaconda](https://www.youtube.com/watch?v=YJC6ldI3hWk)\n\n## Python | code practice \n\n- https://codefights.com\n\n## Python | LinkedIn API \n\n- http://thinktostart.com/download-your-linkedin-contacts-with-python/\n\n\n# LinkedIn | Get API key \n\nhttp://thinktostart.com/download-your-linkedin-contacts-with-python/\nhttps://www.linkedin.com/developer/apps/4907001/auth\nClient ID:  75ebx4yydlmmjt\nClient Secret:  SwL9nNWccTOzaXs0\n\n\n\n\n## How to install in mac.\nIt is already there. \nHowever, there are articles about one shoul install  \n## Is there an IDE that we could / should use. \n\n\n\n[there is one tutorial. check it out later](https://www.codecademy.com/courses/introduction-to-python-6WeG3/0/1?curriculum_id=4f89dab3d788890003000096)\n[there is only first part free](https://www.codeschool.com/learn/python)\n[some python stuff that I did not understand](https://hackernoon.com/the-self-learning-quant-d3329fcc9915)\n\n\n# R vs Python \n\n[Choosing R or Python for data analysis?](https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis#gs.QIr7Jac)\n\n\n\n# MNIST. the “Hello World” of machine learning\n\nMNIST database (Modified National Institute of Standards and Technology database) \nIt is a large database of handwritten digits \nMNIST is a database containing images of handwritten digits, with each image labeled by integer. \n\nDeeplearning4j is a domain-specific language to configure deep neural networks, which are made of multiple layers. Everything starts with a MultiLayerConfiguration, which organizes those layers and their hyperparameters.\n\n- Hyperparameters are variables that determine how a neural network learns. \n  - how many times to update the weights of the model, \n  - how to initialize those weights, \n  - which activation function to attach to the nodes, \n  - which optimization algorithm to use, and \n  - how fast the model should learn.\n\nyou train the model with ```model.fit```\n\n[The hello world of machine learning.](https://deeplearning4j.org/mnist-for-beginners)\n[quickstart of deeplearning4j](https://deeplearning4j.org/quickstart)\n\n\n# coursera on neural networks \n\nhttps://www.coursera.org/learn/machine-learning/lecture/zcAuT/welcome-to-machine-learning\n\nWhat is machine learning? You probably use it dozens of times a day without even knowing it. Each time you do a web search on Google or Bing, that works so well because their machine learning software has figured out how to rank what pages. When Facebook or Apple's photo application recognizes your friends in your pictures, that's also machine learning. Each time you read your email and a spam filter saves you from having to wade through tons of spam, again, that's because your computer has learned to distinguish spam from non-spam email. So, that's machine learning. There's a science of getting computers to learn without being explicitly programmed. One of the research projects that I'm working on is getting robots to tidy up the house. How do you go about doing that? Well what you can do is have the robot watch you demonstrate the task and learn from that. The robot can then watch what objects you pick up and where to put them and try to do the same thing even when you aren't there. For me, one of the reasons I'm excited about this is the AI, or artificial intelligence problem. Building truly intelligent machines, we can do just about anything that you or I can do. Many scientists think the best way to make progress on this is through learning algorithms called neural networks, which mimic how the human brain works, and I'll teach you about that, too. In this class, you learn about machine learning and get to implement them yourself. I hope you sign up on our website and join us. \n\n\n\n\n# deep learning or deep structured learning or deep machine learning\n\nIs a class of machine learning algorithms\n\n[wikipedia, of course](https://en.wikipedia.org/wiki/Deep_learning)\n[Seems to be java friendly](https://deeplearning4j.org/quickstart.html)\n\n# machine learning \n\n\n\nK Means Clustering ? what the heck is that ? \nIRIS dataset ? what the heck is that ? \n\n\nFirst select a tool.if you are not a programmer and lazy like me I would suggest Weka,because it provides a GUI. If you are a programmer I would suggest scikit learn in python.R too is good. \nThen to get your hands dirty you can download dataset from Uci ML repository.try the iris classification problem.scikit learn already has the dataset.another problem you can try is to identify hand written digits using the MNIST dataset.\n\n\nTom Mitchell's Machine Learning - understanding concepts. \nwhich I think is a great read for understanding the concepts, not as much for code examples though) have used the dataset for the \"Play Tennis\" example as an introduction to Machine Learning. \n\nWhat the fk is that? \nhttps://www.quora.com/Whats-the-Hello-World-program-of-machine-learning\nhttps://in.udacity.com/course/machine-learning-engineer-nanodegree--nd009/\n\n\n# Fan-tastick rickshaw \n\nAuto rickshaws or autos \n\n[click here](https://pragprog.com/the-pragmatic-programmer/extracts/software-entropy)\n\n\nhttps://en.wikipedia.org/wiki/Public_transport_in_Mumbai\n\n\n\n\n# Use google play in your application. \n\n- Install google play services. 24\n- [What is this thing for?](http://stacktips.com/how-to/installing-google-play-services-in-genymotion-emulator)\n\n# Get location from google play on android application. \n\n- [Google link](https://classroom.udacity.com/courses/ud876-5/lessons/3987338872/concepts/43346201990923)\n\n### edit build.gradle\n\n```\ncompile com....play-services:7+ \n```\n\n### edit manifest file. \n\n```\nmeta data android name com....gms.version \nuser permission   access fine location \n```\n\n### sequence of code \n\n- oncreate create google api client \n- onstart use google api client to connect to location service \n- if failed then on connection failed then start again \n- if suspended then on connection suspended then probably cache some information \n- if on connected create location request \n- on location changed get location. \n- [link for the flow](https://classroom.udacity.com/courses/ud876-5/lessons/3987338872/concepts/43251598620923)\n\n### Create a SHA debug key. \n\n```\n$ cd ~/.android\n\n$ pwd \n/Users/parthabhattacharjee/.android\n\n$ keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android\nAlias name: androiddebugkey\nCreation date: Aug 15, 2015\nEntry type: PrivateKeyEntry\nCertificate chain length: 1\nCertificate[1]:\nOwner: CN=Android Debug, O=Android, C=US\nIssuer: CN=Android Debug, O=Android, C=US\nSerial number: 7afc6549\nValid from: Sat Aug 15 20:29:25 IST 2015 until: Mon Aug 07 20:29:25 IST 2045\nCertificate fingerprints:\n   MD5:  95:AD:DC:9F:2F:5A:61:08:C2:67:8B:1A:77:58:CF:7D\n   SHA1: 3D:3F:32:4C:52:4A:10:BC:E0:AC:71:D6:7B:0C:6F:EE:3B:A5:81:1B\n   SHA256: 49:87:D5:AC:23:71:6B:18:AD:01:6D:7C:9D:B1:81:F5:02:05:79:77:80:50:0A:A4:2E:74:4F:B7:4D:A8:03:2E\n   Signature algorithm name: SHA256withRSA\n   Version: 3\n\nExtensions: \n\n#1: ObjectId: 2.5.29.14 Criticality=false\nSubjectKeyIdentifier [\nKeyIdentifier [\n0000: D6 FE A9 5F 4F BF 5F 8F   23 22 3A 7F A4 9A EA FA  ..._O._.#\":.....\n0010: 97 31 8F 2C                                        .1.,\n]\n]\n\n```\n\nlogin to https://console.developers.google.com/iam-admin/projects\ncreate project \napi and auth | apis | google plus api \n{\"installed\":{\"client_id\":\"211205559617-jtfo5qbqsub063eqddb782vkhbubjad5.apps.googleusercontent.com\",\"project_id\":\"hybrid-dominion-165017\",\"auth_uri\":\"https://accounts.google.com/o/oauth2/auth\",\"token_uri\":\"https://accounts.google.com/o/oauth2/token\",\"auth_provider_x509_cert_url\":\"https://www.googleapis.com/oauth2/v1/certs\",\"redirect_uris\":[\"urn:ietf:wg:oauth:2.0:oob\",\"http://localhost\"]}}\n\n\n\nv_saroha@hotmail.com\n\n# Tips for online presence. \n\nHighlight. \nOnline courses. \n\n\n# Where to learn android programming? \n\n- [Android courses by Google.](https://www.udacity.com/india)\n- [Dont create your user login. Use google.](https://www.udacity.com/course/add-google-sign-in-to-your-android-apps--ud876-5)\nCan we have linkedin provide user login as well. More likely to be verified. \nWhat else?? \n\n\n\n# How to open md file in Sublime with md format instead of JavaScript? \n\n- Open all files with current extension with the markdown extended. \n\n\n## [Lesson 1: Create Project Sunshine](https://classroom.udacity.com/courses/ud851/lessons/93affc67-3f0b-4f9b-b3a4-a7a26f241a86/concepts/338e2164-2dae-4b96-9600-4082ffea10f7)\n\n  - adb shell am start -n com.package.name/com.package.name.ActivityName\n  - Register your stuff in manifest file. \n\n\n# Android developement tutorials\n\n- [Developing Android Apps by  Google](https://www.udacity.com/course/new-android-fundamentals--ud851)\n\n# How to for AndroidStudio\n  - Format file on save. \n  - \n\n# [Android Development for Beginners](https://www.udacity.com/course/android-development-for-beginners--ud837)\n\n\n@ signifies a resource. \n@drawable is a image, for example. \nKirill Grouchnikov. Google playstore guy. \n\n\n  - [Material colors](https://material.io/guidelines/style/color.html#color-color-palette)\n  - https://developers.google.com/android/for-all/vocab-words/?utm_source=udacity&utm_medium=course&utm_campaign=android_basics\n  - developer.android.com/index.html \n\n# [Lesson 2: Building layouts, Part 2](https://classroom.udacity.com/courses/ud834/lessons/4330701752/concepts/42372186530923)\n\n  - ViewGroup \n    + Linear layout could be vertical or horizontal\n    + Relative layout allows positioning of children in relation to parent and / or siblings.\n  - @ signifies resource \n  - @+id/ is a new resource that you are creating on the spot . \n  - Padding inside. Margin outside. \n\n# [Lesson 3: Practise set: Building layouts]\n\n  - Install JDK. You are looking for Mac OS x64 version. \n  - Install AndroidStudio\n  - API 15 - 90% \n  - NFC - \n  - Create a new \"empty activity\"\n\nhttps://docs.google.com/document/d/1w1Xn_hnSAODAAtdRDp7haYPBtEwX_l7Htpf8Wpgbu6w/pub?embedded=true\n\n\n### Check for java on your mac \n\n```\n$ java -version \njava version \"1.8.0_31\"\nJava(TM) SE Runtime Environment (build 1.8.0_31-b13)\nJava HotSpot(TM) 64-Bit Server VM (build 25.31-b07, mixed mode)\n```\n\n### [Using phone to debug app rathe than emulator](https://classroom.udacity.com/courses/ud837/lessons/4034888704/concepts/43534185630923)\n\n- Configure your android phone in developer mode. \n  + Browse to Settings / About phone / Build Number and click it 7 times. What. Why. \n  + Now you should see Developer{} available on the phone. \n  + Turn on USB Debugging. \n- Connect phone to mac. \n- Run app from AndroidStudio. Chose to run on the attached phone and not on emulator. \n\n\n### The basic main activity. \n\n\npackage jovi.kaun.myapplication;\n\nimport android.support.v7.app.AppCompatActivity;\nimport android.os.Bundle;\n\npublic class MainActivity extends AppCompatActivity {\n\n    @Override\n    protected void onCreate(Bundle savedInstanceState) {\n        super.onCreate(savedInstanceState);\n        setContentView(R.layout.activity_main);\n    }\n}\n\n\n\n\n\n\n# Create a Android Hello World app from scratch, using AndroidStudio but none of the wizards. \n\n  - Create a github project. Choose to create a readme. \n  - Import as a general project in AndroidStudio. Ensure that AndroidStudio uses the standalone Gradle. \n  - Create the build.gradle.\n  - Open the build.gradle file in AndroidStudio and it will wake up to the fact that this is a Gradle project. \n  - \n\n\n# Where should I create the tech blog. \n  \n  - ??\n  - Don't want to use the github io. \n  - It is best for notes. \n  - It does not show up nice in office. Most likely the same will happen in other orgs as well. \n  - Where are most of the android tech blogs at? \n  - Medium is looking good / stylo. \n    + https://medium.com/@rotxed/dex-skys-the-limit-no-65k-methods-is-28e6cb40cf71\n    + \n\n\n# [Building Android Apps — 30 things that experience made me learn the hard way](https://medium.com/@cesarmcferreira/building-android-apps-30-things-that-experience-made-me-learn-the-hard-way-313680430bf9)\n\n  - Dont add \n    + 3rd party libraries \n    + database \n    + unless you absolutely have to. \n\n  - There will be performance issues \n    + check for overdraw. [link](https://riggaroo.co.za/optimizing-layouts-in-android-reducing-overdraw/)\n    + check for 65K method issue. [link](https://medium.com/@rotxed/dex-skys-the-limit-no-65k-methods-is-28e6cb40cf71)\n\n  - Read the full thing. It has some pointers that seem promising but are advanced. \n  - https://medium.com/@cesarmcferreira/building-android-apps-30-things-that-experience-made-me-learn-the-hard-way-313680430bf9\n  - \n\n\n# dashboard \nhttps://blackrockdigital.github.io/startbootstrap-sb-admin-2/pages/forms.html\n\n# How to used Sublime for JS projects? \n\n\n\n# angularjs\n\n  - When building out Angular projects, you should not add on the full jQuery library. jQlite is already included in Angular\n\n## Can I share working demo of angularjs with the world. \n\n  - codepen? No can do. The free version supports only one project with only 10 files. \n  - anything else out there??\n  - \n\n\n  - [AngularJS Tutorial — Learn AngularJS in 30 minutes](https://blog.revillweb.com/angularjs-tutorial-learn-angularjs-in-30-minutes-35b5eae52dc2)\n  - [Building a Web App From Scratch in AngularJS](https://code.tutsplus.com/tutorials/building-a-web-app-from-scratch-in-angularjs--net-32944)\n\n\n\n\n\n# angularjs, bootstrap \n[How to Correctly Use BootstrapJS and AngularJS Together](https://scotch.io/tutorials/how-to-correctly-use-bootstrapjs-and-angularjs-together)\n\n\n# Rapid prototyping with SpringBoot and AngularJS\n\n  - [Rapid prototyping with Spring Boot and AngularJS](https://g00glen00b.be/prototyping-spring-boot-angularjs/)\n\n\n# Get a bare bones SpringBoot application up and running. \n\n  - Use maven to do the heavy lifting and bring everyone to the party. \n  - Write the main class and bind it with SpringBoot. \n  - Write a basic HTML in src/main/resources/static/index.html. \n  - Boot up the SpringBoot application using Maven. \n  - The log file should show your message. The http://localhost:8080 should show the HTML. \n\n\n```\nmvn -e clean install spring-boot:run\n```\n\n## Add bootstrap with bower to the SpringBoot application. \n\n  - Ensure that you have npm and bower installed. \n\n```\n$ npm --version \n3.10.10\n$ bower --version \n1.8.0\n```\n\n  - Configure bower to use the static folder for downloading libraries. Create the .bowerrc file. \n\n```\nbower init\nbower install angular --save \nbower install bootstrap --save \n```\n\n  - Configure .gitignore to ignore the libraries folder. \n  - Put bootstrap elements in the index.html.  \n\n## Add AngularJS\n\n```\nbower install angular --save \n```\n\n\n\n# myCircle\n  - The 5 people that you would like to SOS in case something goes wrong \n  - Seek help for you, right where you are \n  - Seek help for someone you know, at some other point \n  - You are in a fix. Is there someone who knows someone who you know, and who is around and can help. \n  - Needs to connect with GPS. \n  - Someone asked for help from Malad. Is there someone I know who is in Malad at the moment? \n\n\n\n\n\n[Example questions for interview](https://www.glassdoor.co.in/Interview/hyderabad-amazon-interview-questions-SRCH_IL.0,9_IM1076_KE10,16_IP2.htm)\n  - Design vending machine \n  - Desing IVR \n  - Design air ticket picker \n\n\n# Design a vending machine \n\n  - http://javarevisited.blogspot.in/2016/06/design-vending-machine-in-java.html\n\n\n1994 - Jeff Bezos - D. E. Shaw & Co. - Cadabra to Amazon \nAs of early 2017, Amazon had nearly 269,000 employees worldwide\n\nNon-clustered and clustered index\n\n\n# Amazon leadership principles\n\nCustomer Obsession\nLeaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. Although leaders pay attention to competitors, they obsess over customers.\n\nOwnership\nLeaders are owners. They think long term and don’t sacrifice long-term value for short-term results. They act on behalf of the entire company, beyond just their own team. They never say “that’s not my job\". \n\nInvent and Simplify\nLeaders expect and require innovation and invention from their teams and always find ways to simplify. They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here\". As we do new things, we accept that we may be misunderstood for long periods of time.\n\nAre Right, A Lot\nLeaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work to disconfirm their beliefs.\n\nLearn and Be Curious\nLeaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore them.\n\nHire and Develop the Best\nLeaders raise the performance bar with every hire and promotion. They recognize exceptional talent, and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others. We work on behalf of our people to invent mechanisms for development like Career Choice.\n\nInsist on the Highest Standards\nLeaders have relentlessly high standards - many people may think these standards are unreasonably high. Leaders are continually raising the bar and driving their teams to deliver high quality products, services and processes. Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.\n\nThink Big\nThinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. They think differently and look around corners for ways to serve customers.\n\nBias for Action\nSpeed matters in business. Many decisions and actions are reversible and do not need extensive study. We value calculated risk taking. \n\n## Frugality\n  - Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. There are no extra points for growing headcount, budget size or fixed expense.\n  - do more with less \n  - -----------------\n  - save ops headcount. \n  - kill the tail. \n  - in case an application does not fit into the rest of the portfolio, give them away. \n\n## Earn Trust\n  - Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, even when doing so is awkward or embarrassing. Leaders do not believe their or their team’s body odor smells of perfume. They benchmark themselves and their teams against the best.\n  - At the end of the day, the team is the source of strength. \n  - It is important to know each member of the team accurately, know their strengths and weak spots. \n  - It is only possible when the leader connects with the team. This can only happen when the team is treated with humility, respectfully and with honesty. \n  - Communication plan\n  - ------------------\n  - Each product team meets once a month for all hands on where the report card is presented in details. \n  - With all leads and designated high performers there is a monthly one to one. documented next steps. \n  - With all teams there is a skip level meeting, at regular intervals. \n  - There is a monthly report card that is published by each team. \n\n## Dive Deep\n  - Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdote   differ. No task is beneath them.\n  - Urgent\n  - ------ \n  - P1. Standing instruction to text for every case. In case of escalations, get in call as the AD lead. \n  - P1. All cases. Friday. Weekly call with all leads. \n  - P1. All cases. Monday morning call to provide sr. mgmt. \n  - Non urgent, Important \n  - ---------------------\n  - Randomly join weekly / daily scrum meetings, to be in touch with the grassroot detals. \n  - Working towards sending critical stability, management metrics from prod over emails to AD, ProdSupport. \n  - Insists on access to codebase. Randomly pull code and review. \n  - Dev fridays. Critical dev, arch updates are shared. \n      \n\n## Have Backbone; Disagree and Commit\n  - Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting. Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, they commit wholly.\n  - Graphs are not required for the MVP in MyReports. \n    + Challanged on the basis of SME knowledge and understanding. Disagreed. \n    + Spawn off another thread to collect data about usage of graphs. In progress. \n    + Did a demo to sr. stakeholders from client. Most of the feedback was on the ease of creating new reports and formatting them. \n    + We agreed on a list of features for MVP. Clients chose not to put graphs on that. \n  - ??  \n\n\n## Deliver Results\nLeaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. Despite setbacks, they rise to the occasion and never settle.\n\n\n\n\n\n\nDecision with less data \n  vocally self critical \n  backbone - feature which is good for \n  technologies - 5  / 6 \n\nThink big - vision \n\nTeam - self motivated - 100 members\n\nLeadership principles \n\n2 project detailed description - data, users, \n\nproblem solving - \n  - telephonic machines - \n  - vending machine \n  - smallest path \n  - IPL dashboard \n  - one liner \n    + clear assumptions \n    + probe \n    + dealing with ambiguity \n    + user base / scale / 10X user base \n    + frugality \n\nAWS \n  - familiarity with cloud \n\n\n\n\n\n# [Spring Boot and AngularJS](https://examples.javacodegeeks.com/enterprise-java/spring/boot/spring-boot-and-angularjs-integration-tutorial/)\n\n\n# When should we use bower and when npm? \n  - It seems we can download js using bower. We could add that to a spring-boot application. \n  \n\n## Install bower\n\n```bash \n\n$ npm --version \n3.10.10\n\n$ npm install -g bower \n/usr/local/bin/bower -> /usr/local/lib/node_modules/bower/bin/bower\n/usr/local/lib\n└── bower@1.8.0 \n\n\nConfigure bower to install js in our folder. \n\n$ cat .bowerrc\n{\n  \"directory\": \"src/main/resources/static/bower_components\",\n  \"json\": \"bower.json\"\n}\n\n\n// bower will not work due to permission issues to start with. fix that. \nsudo chown -R $(whoami) ~/.config\nbower init\nbower install --save jquery bootstrap \nbower install --save angular angular-route angular-resource angular-cookies angular-sanitize \nbower install --save bootstrap \n\nbower install --save angular-ui-grid\n\n\n```\n\n## Configure bower to download files in a provided folder. \n\nAdd the .bowerrc file to the project folder. \nAnd then run bower init\n\n```bash \n\n\n{\n  \"directory\": \"src/main/resources/static/bower_components\",\n  \"json\": \"bower.json\"\n}\n\n```\n\n```\nmvn clean install\n\nmvn spring-boot:run\n\n```\n\n\n## spring-boot, angularjs tutorial \n\n  - [Part 1](http://rajandesai.com/blog/2014/03/08/getting-started-with-spring-boot-application-using-maven/)\n  - [Part 2](http://rajandesai.com/blog/2014/03/10/web-application-development-using-spring-boot-and-maven-part-2-adding-angularjs-support/)\n  - [Part 3](http://rajandesai.com/blog/2014/03/12/web-application-development-using-angularjs-spring-boot-and-maven-part-3-beautify-using-bootstrap/)\n  - [Part 4](http://rajandesai.com/blog/2014/03/14/web-application-development-using-angularjs-spring-boot-and-maven-part-4-birdlog-application/)\n  - [Part 5](http://rajandesai.com/blog/2014/03/18/part-5-web-application-development-using-angularjs-spring-boot-and-maven-using-ebird-apis-in-birdlog-application/)\n\n\n# References for Android developement \n  - [Android Development](http://www.vogella.com/tutorials/android.html)\n  - \n\n\n# Android 7.0 Nougat!\n  - https://developer.android.com/index.html\n  - Get Android Studio\n\n# Android Studio\n  - Download. It is about 500Mb\n  - Configure. https://developer.android.com/studio/install.html\n  - http://www.vogella.com/tutorials/Android/article.html\n\n# Is there TDD for android? TODO\n\n\n\n\n# What is using all the space on my mac? TODO. \n\n# Should I develop for iOS or Android? TODO \n\n# How to develop for both iOS and Android? \n  - [10 tools](http://thinkapps.com/blog/development/develop-for-ios-v-android-cross-platform-tools/)\n\n\n# How to monetize? \n  - [FbStart](https://developers.facebook.com/fbstart/?utm_source=Twitter&utm_campaign=fbs)\n    - Launched an app on Google Play or iOS. \n    - ...\n  - Android / iPhone. Which app is more likely to be monetized? \n  - \n\n# What are the features of a good tech blog? \n  - [It is a simple, beautiful Jekyll theme that's mobile first.](https://github.com/johnotander/pixyll)\n  - Manage content in a no fuss way. On Sublime. And push from it. \n  - Multiple ways to share code. From the blog. From github. Etc. \n  - Free text search. Preferrably autocomplete. \n  - Multiple ways to find content. E.g. free text search, tags, date wise archive etc.  \n  - Push content to social media. Twitter. Google etc. \n  - Search engine optimization. \n  - Optimized for mobile. \n\n# What can we make the pixyll do for your blog? \n  - [Notes from the link.](https://github.com/johnotander/pixyll)\n  - If you don't want the header to link back to the root url\n  - Add Contact Form from https://formspree.io\n  - What is Disqus for? \n  - Change colors etc by changing _sass/_variables.scss\n  - You can add some rudimentary animation by animated: true to your _config.yml\n  - Add deep anchor links. AnchorJS\n  - You can measure visits to your website either by using Google Analytics tracking embed or the more advanced Google Tag Manager container.\n  - In order to get more information about your website's status in search engines, you can register it in Google Search Console and/or Bing Webmaster Tools.\n  - What is this https://moz.com/blog/i-cant-drive-155-meta-descriptions-in-2015??\n  - Add tags like \n    - [numbered and links shown.](http://zdf615328619.github.io/tags/)\n    - [minimal and with count.](http://themes.gohugo.io/theme/pixyll/tags)\n    - [or like so.](http://zpbappi.com/tags/)\n  - Add contact [like so.](http://zpbappi.com/contact/)\n    - Add archive [like so.](http://zpbappi.com/archive/). Or [like so.](http://zdf615328619.github.io/archive/)\n    - Add the ribbon [like so.](http://ramonaharrison.github.io)\n    - Add the search [like how?]\n  - Add search \n    - [Search and archive together](http://www.repleatur.net/search/)\n    - [type and search hits show up](http://www.perfectlyrandom.org/search/)\n    - [loved the search on it](http://adrian-philipp.com)\n  - Good design \n    + [clean and minimal and not too big](http://markibrahim.me//musings/)\n\n\n\n\n# Build Apps for Free on Heroku\n\nhttps://www.heroku.com/free\nHeroku Postgres\n  What is Postgres used for ?? \n\nHeroku Redis \n  What is Redis used for ?? \n\nIs it free? \n  [This is a free dyno concept. Is that good enough?](https://blog.heroku.com/heroku-free-dynos)\n\nWhat is good about Heroku??\n  Good according to http://www.toptenreviews.com/services/web-hosting/best-cloud-hosting/heroku-review/\n\nWhat is bad about Heroku? \n  [Someone got locked out](http://augustin-riedinger.fr/en/resources/the-day-i-stopped-using-heroku/)\n\nWhat are the alternatives to Heroku? \n  AWS \n  Nodejitsu\n\n\n# How to deploy a node.js app in Heroku? \n\n## Installations and setups \n\n  - You should have a Heroku account. A free one is good enough for now. kaunjovi@gmail.com. \n  - You need the following on your local box. \n\n```bash\n\n$ node --version \nv6.9.5\n$ npm --version \n3.10.10\n$ git --version \ngit version 2.7.4 (Apple Git-66)\n$ heroku --version \nheroku-cli/5.6.17-bee0f80 (darwin-amd64) go1.7.5\n\n```\n\n\n\n\n```bash \n$ heroku login \nEnter your Heroku credentials.\nEmail: kaunjovi@gmail.com\nPassword (typing will be hidden): \nLogged in as kaunjovi@gmail.com\n```\n\n\n\n\n\n\n\n# Follow https://tests4geeks.com/oauth2-javascript-tutorial/\n  - Login with google and then logout \n  - You have to register your application with OAuth provider e.g. ??who are the different OAuth provider?? \n  - Go to API manager / Dashboard and enable Google+ API.  \n\n\n\n```html\n<script src=\"static/hello.all.js\"></script>\n<script>\n  hello.init({\n    google: \"Client-ID-From-Google-Dev-Console\"     // not real id\n  });\n</script>\n```\n\n```html \n<button onclick=\"hello('google').login()\">google</button>\n<button onclick=\"hello('google').logout()\">logout</button>\n```\n\n\n# How to create a single page website using Node.js? \n\n  - http://www.clock.co.uk/blog/a-simple-website-in-node-js-2016-edition\n  - https://shapeshed.com/creating-a-basic-site-with-node-and-express/\n\n```bash \n$ node -v\nv4.2.3\n$ npm -v \n2.14.7\n\nmkdir simple-website && cd simple-website\nnpm init\n\n\nnpm i --save express morgan nodemon hellojs \n\nnpm i --save express@4 morgan@1\nnpm i --save nodemon@1.9\nnpm i --save hellojs\n\n{\n  \"build-css\": \"stylus source/stylesheets/index.styl -o static/css\",\n  \"watch-css\": \"stylus source/stylesheets/index.styl -o static/css -w\",\n  \"clean\": \"rm -rf static/css && mkdir -p static/css\",\n  \"build\": \"npm run clean && npm run build-css\",\n  \"watch\": \"npm run clean && npm run watch-css & nodemon server -e js,jade\",\n  \"start\": \"node server\"\n }\n\n```\n\n\nserver.js \n\n```javascript\nvar express = require('express')\n  , logger = require('morgan')\n  , app = express()\n  , template = require('jade').compileFile(__dirname + '/source/templates/homepage.jade')\n\napp.use(logger('dev'))\napp.use(express.static(__dirname + '/static'))\n\napp.get('/', function (req, res, next) {\n  try {\n    var html = template({ title: 'Home' })\n    res.send(html)\n  } catch (e) {\n    next(e)\n  }\n})\n\napp.listen(process.env.PORT || 3000, function () {\n  console.log('Listening on http://localhost:' + (process.env.PORT || 3000))\n})\n```\n\n\n# How to configure Google Credentials For OAuth with our App\n  - Navigate to the Google Developer Console and select Credentials in the API Manager.\n    + https://console.developers.google.com/projectselector/apis/credentials\n    + Project name : loginLogoff \n    + click Create Credentials/OAuth Client Id.\n    + Put the origin and redirect as http://localhost:5000\n    + clientId : 528837191694-lr65jsi83hmsl1dti2jakh3mo586f1nb.apps.googleusercontent.com\n    + clientSecret : PfmplOVEr96Vm8yRsK_5Yp7B\n\n\n# What should software developers concentrate on in 2017? \n\n  - https://techbeacon.com/6-code-framework-trends-you-should-follow-2017\n  - Progressive web apps (PWAs) emerged as a major new paradigm in mobile web development\n  - [Google Go or Node.js for web development? Which is better?](https://www.topcoder.com/blog/google-go-or-node-js-for-web-development-which-is-better/)\n  - Is Go better for web development than Node.js and JavaScript ?? \n\n\n# How to mine LinkedIn data using code? \n  - ?? \n  - LinkedIn relies on the industry standard OAuth 2.0 protocol for granting access\n  - interacting with LinkedIn's REST APIs. \n  - if you are developing a front-end JavaScript LinkedIn provide SDKs to handle the authentication process for you. \n\n  - Using the JavaScript SDK requires you to have an application registered with LinkedIn.  \n  - If you have not already done so, create an application. \n  - If you have an existing application, select it to modify its settings.\n\n  - Create an application\n  - Register that with LinkedIn\n  - \n\n# Twitter for developers. \n  - https://dev.twitter.com\n  - [Twitter Developer Documentation](https://dev.twitter.com/overview/api)\n  - [Twitter Libraries in different technologies](https://dev.twitter.com/resources/twitter-libraries)\n  - Twitter APIs in Java \n    - [The simple OAuth client Java lib](https://github.com/scribejava/scribejava)\n    - [A Java HTTP client for consuming Twitter's Streaming API](https://github.com/twitter/hbc)\n    - http://twitter4j.org/en/index.html\n  - Python \n    - [Example app using Python to get Twitter data.](https://github.com/x0rz/tweets_analyzer/blob/master/secrets.py)\n  \n\n# What is wrong with Javascript? \n\n  - https://whydoesitsuck.com/why-does-javascript-suck/ ?? \n  - \n  - \n\n# [Go, or the Golang](https://golang.org)\n\n  - Create a web app using Go \n  - Apparently Go is as good as or better than Node.js \n  - Host it on Heroku. \n\n## Go vs Node.js \n\n  - [Node.js vs Golang: Battle of the Next-Gen Languages](http://www.hostingadvice.com/blog/nodejs-vs-golang/)\n\n## Why should I bother about learning Go? \n\n  - https://whydoesitsuck.com/why-does-javascript-suck/ ?? \n  - \n\n\n## Resources on Go\n\n  - [Home page](https://golang.org)\n  - [Building Go Web Apps](https://www.topcoder.com/blog/building-go-web-apps/)\n  - [An Introduction to Programming in Go](http://www.golang-book.com/books/intro)\n  - [Learning Go - a free PDF for learning the Go language.](https://github.com/miekg/gobook)\n  - [Go Bootcamp](http://www.golangbootcamp.com/book/)\n  - [Learn X in Y minutes](https://learnxinyminutes.com/docs/go/)\n  - \n\n\n# What is Progressive web apps (PWAs)? \n  - ??\n\n\n\n# [Eloquent JavaScript](http://eloquentjavascript.net)\n  \n  - TOREAD\n\n# [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)\n\n  - TOREAD \n\n\n# Javascript \n\n  - [This looks very detailed and interesting](http://eloquentjavascript.net)\n  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript\n  - [codingame with Javascript](https://www.codingame.com/ide/66095220104dcab34ebde2a460a63bdf3348eb0)\n\n```javascript\n    var enemy1 = readline(); // name of enemy 1\n    var dist1 = parseInt(readline()); // distance to enemy 1\n    var enemy2 = readline(); // name of enemy 2\n    var dist2 = parseInt(readline()); // distance to enemy 2\n```\n  - ternary operator \n\n\n```javascript\nprint(dist1 < dist2 ? enemy1 : enemy2);\n```\n\n\n```javascript\nwhile (true) {\n  // your logic here. \n}\n```\n\n\n# Where is Java installed on my mac? \n\n```bash\n$ /usr/libexec/java_home\n/Library/Java/JavaVirtualMachines/jdk1.8.0_31.jdk/Contents/Home\n```\n\n# How to use sublime for java based developement? \n  - Start with Sublime. Move as soon as it becomes too big. Too much effort.\n\n\n# [Building \"Hello World\" in Angular 2](https://thinkster.io/tutorials/angular-2-hello-world)\n\n  - There has to be an entry point to each application. This will do the bootstrapping. File name : main.ts. \n  - To bootstrap, there needs to be a component called \"AppComponent\". File name : app/app.component.ts\n  - You could have a HTML template. It is not mandatory. \n\nmain.ts\n\n\n\n```javascript\n\n\nimport { platformBrowserDynamic } from '@angular/platform-browser-dynamic';\nimport { AppModule } from './app/index';\n\nplatformBrowserDynamic().bootstrapModule(AppModule) \n```\n\napp/app.module.ts\n\n```javascript \n\nimport { NgModule } from '@angular/core'\nimport { BrowserModule } from '@angular/platform-browser'\n\nimport { AppComponent } from './app.component';\n\n@NgModule({\n  imports: [ BrowserModule ],\n  declarations: [ AppComponent ],\n  bootstrap: [ AppComponent ]\n})\nexport class AppModule {}\n\n```\n\n### app/app.component.html\n\n```html \n<div>\n  <h2>Hello {{name}}</h2>\n</div>\n```\n\n  - @Anything is a decorator. Allows you to extend a class. \n  - @NgModule is a decorator in Angular2. It does ???\n  - [How to autocomplete in sublime?](http://stackoverflow.com/questions/12656448/sublime-text-2-auto-completion-popup-does-not-work-properly)\n  - \n\n# Read \n\n## Bookamark \n  - [Hackernoon, #hacker, #leisure](https://hackernoon.com)\n\n## Come back \n  - [What is the big deal with mirrors?](https://hackernoon.com/i-made-myself-a-smart-mirror-50e56966c478#.buuvucryz) \n  - [What is this about robots taking away jobs?](https://hackernoon.com/the-robots-are-coming-9fbe73a0ec40#.wxyi1gpfz)\n\n## Learn \n  - [The Tour of Heroes tutorial](https://angular.io/docs/ts/latest/tutorial/)\n  - [Seems to be the latest on Angular2. Is it any good?](https://thinkster.io/tutorials/learn-angular-2)\n\n## Good tech blog design \n  - http://blog.mgechev.com/2016/06/26/tree-shaking-angular2-production-build-rollup-javascript/\n  - \n  \n# Sublime\n\n\n## Sublime, git \n  - C,S,P + quick\n  - Highlight changed lines \n    - https://github.com/gornostal/Modific\n    - https://github.com/jisaacks/GitGutter\n    - \n\n## Sublime, typescript\n  - https://github.com/Microsoft/TypeScript-Sublime-Plugin \n  - \n\n### Which all packages are installed in my Sublime installation? \n  - TBD \n\n## Sublime | shortcuts \n  - S+tab - collapse / uncollapse.  \n  - A+cmd+enter - open the url in the chrome. \n\n# TypeScript\n  - It seems to be js the way it should have been. Best to spend time only on the bits that gets something done. E.g. the bits that make Angular2 tick. \n  - So, no more in depth reading for now. \n  - [Learn TypeScript in 30 Minutes](http://tutorialzine.com/2016/07/learn-typescript-in-30-minutes/)\n  - [If you just want to write ts and press play](http://www.typescriptlang.org/play/)\n  - [If only js forced you to declar var type, we would not need a new language?](https://blogs.msdn.microsoft.com/somasegar/2012/10/01/typescript-javascript-development-at-application-scale/)\n  - [TS seems to be getting popular over time. But why?](https://www.google.com/trends/explore?date=all&q=typescript)\n  - [Babylon guys moved to ts](https://www.eternalcoding.com/?p=103)\n  - [Why does TypeScript have to be the answer to anything?](http://www.hanselman.com/blog/WhyDoesTypeScriptHaveToBeTheAnswerToAnything.aspx)\n\n## How to install\n  - How to check if typescript has been installed correctly? TBD\n\n```json \nsudo npm install -verbose -g typescript\nnpm list -g --depth=0 \n\n$ tsc -v \nVersion 2.1.4\n\ntsc *.ts \ntsc helloworld.ts andsomemore.ts \n\ntsc helloworld.ts --watch\n```\n\n\n# Generics @ TypeScript  \n  - http://tutorialzine.com/2016/07/learn-typescript-in-30-minutes/\n\n# Modules @ TypeScript \n  - http://tutorialzine.com/2016/07/learn-typescript-in-30-minutes/\n\n\n\n\n\n\n### Thanks to\n\n  * https://help.github.com/articles/set-up-git/\n  * https://help.github.com/articles/generating-a-new-ssh-key/\n  * https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/\n  * https://help.github.com/articles/set-up-git/\n  * https://help.github.com/articles/caching-your-github-password-in-git/\n  * [Pushing to GitHub with HTTPS and 2-Factor Authentication](https://www.youtube.com/watch?v=hJLaXNMz8zw)\n\n\n### How to setup git command line to connect with github account? \n\n```\n\ngit config --global user.name \"kaunjovi\"\ngit config --global user.email \"kaunjovi@gmail.com\"\n\n// Where is this git from? \ngit remote -v \n\n// How many files are there to be checked in? \ngit status \n\n// What are the changes\ngit diff \n\n// Add the file in  \ngit add filename\ngit commit -m \"blah\"\ngit push \n\n```\n\n\n\n\n\n\n### A pedantic way to push changes to git. \n```\ngit add --all && git commit -m \"new version\" && git push \n```\nIt is a bit pedestrian but, it is guaranteed not to eat too much system resource. And it will not run without me knowing. \n\nThere was the other one. But, one, I could not get it to work. Second, I could not get it to work. Third, it is a little too clever script for me. I could not make head or tail out of it. Or how is it supposed to work. \n\n",
+			"file": "/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-02-14-hello-world.md",
+			"file_size": 46284,
+			"file_write_time": 131404519360000000,
+			"settings":
+			{
+				"buffer_size": 46386,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "python.sublime-project",
+			"settings":
+			{
+				"buffer_size": 278,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 152,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": ".gitignore"
+			}
+		},
+		{
+			"contents": "import tweepy\n \n# Consumer keys and access tokens, used for OAuth\nconsumer_key = 'km9ZVmO42qCtcjcukbk4B54qS'\nconsumer_secret = 'NeURzc08wrGhA0emAxpjdJx8MOK4RsyXBDl4VDADQ6rLKTQub6'\naccess_token = '719722333632643076-4fNGpXADGQgapb1OAk3bMAQRXfNZbqg'\naccess_token_secret = 'qRwx3YMeIB42iDpInontLtVuMaMnWJTmlr2twOsArbcnc'\n \n# OAuth process, using the keys and tokens\nauth = tweepy.OAuthHandler(consumer_key, consumer_secret)\nauth.set_access_token(access_token, access_token_secret)\n \n# Creation of the actual interface, using authentication\napi = tweepy.API(auth)\n \n# Creates the user object. The me() method returns the user whose authentication keys were used.\nuser = api.me()\n \nprint 'Name: ' + user.name\nprint 'Location: ' + user.location\nprint 'Friends: ' + str(user.friends_count)",
+			"file": "twitter.py",
+			"file_size": 783,
+			"file_write_time": 131404521130000000,
+			"settings":
+			{
+				"buffer_size": 782,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "import tweepy"
+			}
+		}
 	],
-	"build_system": "",
+	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"PYTHON_VENV",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
 		[
 			[
 				[
@@ -244,9 +308,29 @@
 	"command_palette":
 	{
 		"height": 375.0,
-		"last_filter": "pack",
+		"last_filter": "push",
 		"selected_items":
 		[
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"qu",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"pu",
+				"Git: Push"
+			],
+			[
+				"qui",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"vir",
+				"Virtualenv: Activate"
+			],
 			[
 				"pack",
 				"Package Control: Install Package"
@@ -260,24 +344,8 @@
 				"Git: Push"
 			],
 			[
-				"qu",
-				"Git: Quick Commit (repo)"
-			],
-			[
 				"pull",
 				"Git: Pull"
-			],
-			[
-				"qui",
-				"Git: Quick Commit (repo)"
-			],
-			[
-				"push",
-				"Git: Push"
-			],
-			[
-				"pu",
-				"Git: Push"
 			],
 			[
 				"ad",
@@ -364,7 +432,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 543.0
+		"width": 471.0
 	},
 	"console":
 	{
@@ -394,10 +462,12 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/parthabhattacharjee/git/python002"
+		"/Users/parthabhattacharjee/git/python002",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts"
 	],
 	"file_history":
 	[
+		"/Users/parthabhattacharjee/git/python002/hello.py",
 		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-02-15-cheatsheets.md",
 		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2017-04-29-proto-to-java.md",
 		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-02-20-maven-configuration.md",
@@ -587,8 +657,126 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-02-14-hello-world.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46386,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1740,
+								2010
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 342.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "python.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								278,
+								278
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScriptNext - ES6 Syntax/JSON (JavaScriptNext).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								152,
+								152
+							]
+						],
+						"settings":
+						{
+							"auto_name": ".gitignore",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "twitter.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								318,
+								318
+							]
+						],
+						"settings":
+						{
+							"auto_name": "import tweepy",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -629,7 +817,7 @@
 	},
 	"output.exec":
 	{
-		"height": 218.0
+		"height": 182.0
 	},
 	"output.find_results":
 	{
@@ -637,13 +825,13 @@
 	},
 	"output.git":
 	{
-		"height": 80.0
+		"height": 203.0
 	},
 	"output.markdown":
 	{
 		"height": 114.0
 	},
-	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"pinned_build_system": "Packages/Virtualenv/Python + Virtualenv.sublime-build",
 	"project": "python.sublime-project",
 	"replace":
 	{
