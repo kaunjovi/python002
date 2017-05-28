@@ -4,3 +4,6 @@
 # we dont want IDE related files in git either. 
 python.sublime-project
 python.sublime-workspace
+
+# dont put in the secret properties file in the git
+secret.properties
