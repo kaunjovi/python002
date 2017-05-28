@@ -30,7 +30,15 @@ print 'Name: ' + user.name
 print 'Location: ' + user.location
 print 'Friends: ' + str(user.friends_count)
 
-# Read the timeline
+# Read the timeline. Read only 10 at a time.
 for status in tweepy.Cursor(api.home_timeline).items(10):
     # Process a single status
     print status.text.encode('utf-8')
+
+# Who all are our friends on twitter
+for friend in tweepy.Cursor(api.friends).items():
+    print friend.name
+
+# A list of my tweets.
+for tweet in tweepy.Cursor(api.user_timeline).items(10):
+  print tweet.text
