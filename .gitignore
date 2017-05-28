@@ -1,0 +1,5 @@
+# we dont need the virtual dev env in git. 
+/devenv/ 
+
+# we dont want IDE related files in git either. 
+python.sublime-project

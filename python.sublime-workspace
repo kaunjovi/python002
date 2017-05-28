@@ -1,0 +1,721 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"with",
+				"without"
+			],
+			[
+				"env",
+				"Environment"
+			],
+			[
+				"mac",
+				"machine"
+			],
+			[
+				"lib",
+				"libraries"
+			],
+			[
+				"LIn",
+				"LinkedIn"
+			],
+			[
+				"py",
+				"Python"
+			],
+			[
+				"Map",
+				"MapReduce"
+			],
+			[
+				"deep",
+				"deeplearning4j"
+			],
+			[
+				"des",
+				"De-Serialize"
+			],
+			[
+				"proto",
+				"protobuf"
+			],
+			[
+				"protoc",
+				"protoc-jar-maven-plugin"
+			],
+			[
+				"and",
+				"android"
+			],
+			[
+				"Proje",
+				"Project"
+			],
+			[
+				"dev",
+				"developement"
+			],
+			[
+				"Nex",
+				"Nexus_S_API_22"
+			],
+			[
+				"Andro",
+				"AndroidStudio"
+			],
+			[
+				"And",
+				"AndroidStudio"
+			],
+			[
+				"J",
+				"jcenter"
+			],
+			[
+				"pre",
+				"Pre-requisites"
+			],
+			[
+				"compon",
+				"component"
+			],
+			[
+				"com",
+				"component"
+			],
+			[
+				"appl",
+				"application"
+			],
+			[
+				"In",
+				"Intent"
+			],
+			[
+				"Anug",
+				"AngularJS"
+			],
+			[
+				"Bootsr",
+				"bootstrap"
+			],
+			[
+				"app",
+				"application"
+			],
+			[
+				"Java",
+				"JavaScript"
+			],
+			[
+				"loca",
+				"localhost"
+			],
+			[
+				"sprin",
+				"SpringBoot"
+			],
+			[
+				"SpringBoo",
+				"SpringBoot"
+			],
+			[
+				"angula",
+				"angularjs"
+			],
+			[
+				"mess",
+				"messages"
+			],
+			[
+				"Angul",
+				"AngularJS"
+			],
+			[
+				"Spi",
+				"SpringBoot"
+			],
+			[
+				"spring",
+				"SpringBoot"
+			],
+			[
+				"data",
+				"angular-data-grid"
+			],
+			[
+				"ANGU",
+				"angular-ui-grid"
+			],
+			[
+				"devel",
+				"develop"
+			],
+			[
+				"dy",
+				"dynos"
+			],
+			[
+				"Proc",
+				"Procfile"
+			],
+			[
+				"jaas",
+				"javascript"
+			],
+			[
+				"javas",
+				"javascript"
+			],
+			[
+				"Devle",
+				"developers"
+			],
+			[
+				"Go",
+				"Golang"
+			],
+			[
+				"Jav",
+				"Javascript"
+			],
+			[
+				"subli",
+				"Sublime"
+			],
+			[
+				"java",
+				"javascript"
+			],
+			[
+				"javasc",
+				"Javascript"
+			],
+			[
+				"cod",
+				"codingame"
+			],
+			[
+				"M",
+				"MEAN"
+			],
+			[
+				"su",
+				"Sublime"
+			],
+			[
+				"file",
+				"file\tclass"
+			],
+			[
+				"ur",
+				"urllib"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "pack",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"q",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"qu",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"qui",
+				"Git: Quick Commit (repo)"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"pu",
+				"Git: Push"
+			],
+			[
+				"ad",
+				"Git: Add All"
+			],
+			[
+				"que",
+				"Git: Quick Commit (current file)"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"all",
+				"Git: Add All"
+			],
+			[
+				"INSTA",
+				"Package Control: Install Package"
+			],
+			[
+				"mar",
+				"Markdown HTML Preview"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"QU",
+				"Git: Quick Commit"
+			],
+			[
+				"AD",
+				"Git: Add All"
+			],
+			[
+				"Q",
+				"Git: Quick Commit"
+			],
+			[
+				"Qu",
+				"Git: Quick Commit"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"Cus",
+				"Git: Custom Command"
+			],
+			[
+				"git",
+				"Git: Graph All"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"theme",
+				"Colorsublime: Browse Themes"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 543.0
+	},
+	"console":
+	{
+		"height": 81.0,
+		"history":
+		[
+			"print \"hello world\"",
+			"python ",
+			"python -i HelloWorld.py",
+			"git ",
+			"git add -A",
+			"git add --all ; ",
+			"git add ; ",
+			"git add",
+			"git add --all && git commit -m \"new version\" && git push",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/parthabhattacharjee/git/python002"
+	],
+	"file_history":
+	[
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-02-15-cheatsheets.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2017-04-29-proto-to-java.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-02-20-maven-configuration.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-02-20-mac-eclipse.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-02-14-hello-world.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2017-04-16-gradle-project-with-androidstudio.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2017-04-17-gradle.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2017-04-29-proto-serialize.md",
+		"/Users/parthabhattacharjee/git/protobuf001/src/test/resources/Greeting.ser",
+		"/Users/parthabhattacharjee/git/tutorialGradle/src/main/fun/n/games/HelloActivity.java",
+		"/Users/parthabhattacharjee/git/tutorialGradle/src/main/res/layout/hello_layout.xml",
+		"/Users/parthabhattacharjee/git/tutorialGradle/README.md",
+		"/Users/parthabhattacharjee/git/tutorialGradle/build/outputs/apk/tutorialGradle-debug.apk",
+		"/Users/parthabhattacharjee/git/tutorialGradle/.gitignore",
+		"/Users/parthabhattacharjee/git/tutorialGradle/build.gradle",
+		"/Users/parthabhattacharjee/git/tutorialGradle/build/generated/source/buildConfig/debug/fun/n/games/BuildConfig.java",
+		"/Users/parthabhattacharjee/git/tutorialGradle/src/main/AndroidManifest.xml",
+		"/Users/parthabhattacharjee/git/tutorialGradle/src/main/res/values/strings.xml",
+		"/Users/parthabhattacharjee/git/tutorialGradle/build001.gradle",
+		"/Users/parthabhattacharjee/git/tutorialGradle/src/main/funngames/HelloActivity.java",
+		"/Users/parthabhattacharjee/git/tutorialGradle/gradlew",
+		"/Users/parthabhattacharjee/git/tutorialGradle/gradlew.bat",
+		"/Users/parthabhattacharjee/git/tutorialGradle/local.properties",
+		"/Users/parthabhattacharjee/git/tutorialGradle/tutorialGradle.iml",
+		"/Users/parthabhattacharjee/git/tutorialGradle/src/main/res:values:strings.xml",
+		"/Users/parthabhattacharjee/git/tutorialGradle/src/main/funngames/AndroidManifest.xml",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-04-24-notes-on-docker.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-02-14-running-notes.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-03-23-links.md",
+		"/Users/parthabhattacharjee/code/simple-website/HelloWorld.html",
+		"/Users/parthabhattacharjee/code/simple-website/package.json",
+		"/Users/parthabhattacharjee/code/simple-website/server.js",
+		"/Users/parthabhattacharjee/code/learnOAuth/index.js",
+		"/Users/parthabhattacharjee/code/learnOAuth/package.json",
+		"/Users/parthabhattacharjee/code/learnOAuth/README.md",
+		"/Users/parthabhattacharjee/code/learnOAuth/.gitignore",
+		"/Users/parthabhattacharjee/git/springBootHTML/.gitignore",
+		"/Users/parthabhattacharjee/git/springBootHTML/README.md",
+		"/Users/parthabhattacharjee/git/springBootAngularjs/README.md",
+		"/Users/parthabhattacharjee/git/springBootAngularjs/pom.xml",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-02-14-customize-blog.md",
+		"/Users/parthabhattacharjee/code/learnOAuth/Procfile",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2017-02-05-upgrade-nodejs.md",
+		"/Users/parthabhattacharjee/code/simple-website/html/HelloWorld.html",
+		"/Users/parthabhattacharjee/code/simple-website/npm-debug.log",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/notes.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-08-18-sublime.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/helloworld.js",
+		"/Users/parthabhattacharjee/Downloads/snake/snake.html",
+		"/Users/parthabhattacharjee/Downloads/snake/snake_core.js",
+		"/Users/parthabhattacharjee/Library/Application Support/Sublime Text 3/Packages/TypeScript/typescript/commands/build.py",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-02-17-contact-mishtusorus.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-09-24-spring-boot.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/Tasks.todo",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-02-15-mac-cheatsheet.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-02-20-lambda.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/Threads.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-10-25-gulp.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-03-06-angularjs.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-09-02-electron.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-09-02-electron-angularjs.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-09-12-mean.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/squash.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/MEAN.md",
+		"/Users/parthabhattacharjee/Library/Application Support/Sublime Text 3/Packages/User/Default.sublime-mousemap",
+		"/Users/parthabhattacharjee/Library/Application Support/Sublime Text 3/Packages/User/ClickableUrls.sublime-settings",
+		"/Users/parthabhattacharjee/Library/Application Support/Sublime Text 3/Packages/Clickable URLs/Default (OSX).sublime-keymap",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-04-23-links-to-share.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_config.yml",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_layouts/default.html",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/CNAME",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-06-26-adding-first-angular-controller.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-08-20-android.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-07-07-cassandra.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-07-07-cassandra.html",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2014-06-10-see-pixyll-in-action.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-07-07-nosql.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-07-08-introduction-to-cassandra.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2016-06-26-helloworld-with-angularjs.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/route.xml",
+		"/Users/parthabhattacharjee/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/HelloWorld.py",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/google.html",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2015-07-11-announcing-pixyll-version-2.md",
+		"/Users/parthabhattacharjee/kaunjovi.github.io/_posts/2014-06-11-welcome-to-pixyll.markdown"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"<open folders>",
+			"/Users/parthabhattacharjee/kaunjovi.github.io",
+			"<current file>",
+			"/Users/parthabhattacharjee/kaunjovi.github.io,<current file>",
+			"/Users/parthabhattacharjee/kaunjovi.github.io"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"kafka",
+			"android",
+			"check",
+			"\n[",
+			"androi",
+			"adnroid",
+			"gradle",
+			"android",
+			"react",
+			"amazon",
+			"bower",
+			"monetize",
+			"pixyll",
+			"hbase",
+			"procfile",
+			"go",
+			"javascript ",
+			"sublime for eclipse ",
+			"shortcut",
+			"shortcuts",
+			"running notes",
+			"javascript",
+			"microservices",
+			"read",
+			"links",
+			"git",
+			"git init",
+			"eclipse",
+			"typescript",
+			"nodemon",
+			"npm",
+			"heroku",
+			"#*javascript",
+			"javascript",
+			"liver",
+			"Node",
+			"node",
+			"check",
+			"Heroku",
+			"full stack",
+			"links",
+			"http://dilbert.com",
+			"jasmin",
+			"full stack ",
+			"heroku",
+			"j",
+			"J",
+			"S",
+			"git",
+			"gulp",
+			"Functional ",
+			"Function",
+			"MEAN",
+			"angularjs",
+			"kaunjovi",
+			"sublime",
+			"-",
+			"#",
+			"2.998"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"  - Install Markdown preview. \n  - Install Monokai Extended package. \n  - Install Markdown Extended package. \n  - Install Smart Markdown extended package. \n  - [Sublime Text 2 and Markdown: Tips, Tricks, and Links](https://www.macstories.net/roundups/sublime-text-2-and-markdown-tips-tricks-and-links/)\n  - [How To Set Up Sublime Text for Markdown Editing](http://plaintext-productivity.net/2-04-how-to-set-up-sublime-text-for-markdown-editing.html)\n  - [How to Set Up Sublime Text for a Vastly Better Markdown Writing Experience](https://blog.mariusschulz.com/2014/12/16/how-to-set-up-sublime-text-for-a-vastly-better-markdown-writing-experience)\n  - Sft Mac K - put in the link. \n  - Ctr Mac 1...6 - put in the header. \n",
+			"\n  - Install package controller. \n\n# as Git contributor \n\n  - Quick commit \n  - Push \n  - Can I have quick commit and push with the same command? \n\n#  as MD editor\n  \n  - Install Markdown preview. \n  - Install Monokai Extended package. \n  - Install Markdown Extended package. \n  - Install Smart Markdown extended package. \n  - [Sublime Text 2 and Markdown: Tips, Tricks, and Links](https://www.macstories.net/roundups/sublime-text-2-and-markdown-tips-tricks-and-links/)\n  - [How To Set Up Sublime Text for Markdown Editing](http://plaintext-productivity.net/2-04-how-to-set-up-sublime-text-for-markdown-editing.html)\n  - [How to Set Up Sublime Text for a Vastly Better Markdown Writing Experience](https://blog.mariusschulz.com/2014/12/16/how-to-set-up-sublime-text-for-a-vastly-better-markdown-writing-experience)\n  - Sft Mac K - put in the link. \n  - Ctr Mac 1...6 - put in the header. \n",
+			"*\n  - Install package controller. \n\n# as Git contributor \n\n  - Quick commit \n  - Push \n  - Can I have quick commit and push with the same command? \n\n#  as MD editor\n  \n  - Install Markdown preview. \n  - Install Monokai Extended package. \n  - Install Markdown Extended package. \n  - Install Smart Markdown extended package. \n  - [Sublime Text 2 and Markdown: Tips, Tricks, and Links](https://www.macstories.net/roundups/sublime-text-2-and-markdown-tips-tricks-and-links/)\n  - [How To Set Up Sublime Text for Markdown Editing](http://plaintext-productivity.net/2-04-how-to-set-up-sublime-text-for-markdown-editing.html)\n  - [How to Set Up Sublime Text for a Vastly Better Markdown Writing Experience](https://blog.mariusschulz.com/2014/12/16/how-to-set-up-sublime-text-for-a-vastly-better-markdown-writing-experience)\n  - Sft Mac K - put in the link. \n  - Ctr Mac 1...6 - put in the header. \n",
+			"\n  - Install package controller. \n\n# as Git contributor \n\n  - Quick commit \n  - Push \n  - Can I have quick commit and push with the same command? \n\n#  as MD editor\n  \n  - Install Markdown preview. \n  - Install Monokai Extended package. \n  - Install Markdown Extended package. \n  - Install Smart Markdown extended package. \n  - [Sublime Text 2 and Markdown: Tips, Tricks, and Links](https://www.macstories.net/roundups/sublime-text-2-and-markdown-tips-tricks-and-links/)\n  - [How To Set Up Sublime Text for Markdown Editing](http://plaintext-productivity.net/2-04-how-to-set-up-sublime-text-for-markdown-editing.html)\n  - [How to Set Up Sublime Text for a Vastly Better Markdown Writing Experience](https://blog.mariusschulz.com/2014/12/16/how-to-set-up-sublime-text-for-a-vastly-better-markdown-writing-experience)\n  - Sft Mac K - put in the link. \n  - Ctr Mac 1...6 - put in the header. \n",
+			"*",
+			"###"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 218.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 80.0
+	},
+	"output.markdown":
+	{
+		"height": 114.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "python.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"hell",
+				"~/git/tutorialGradle/src/main/funngames/HelloActivity.java"
+			],
+			[
+				"cn",
+				"CNAME"
+			],
+			[
+				"sub",
+				"_posts/2016-08-18-sublime.md"
+			],
+			[
+				"lay",
+				"_layouts/default.html"
+			],
+			[
+				"defa",
+				"_layouts/default.html"
+			],
+			[
+				"subli",
+				"_posts/2016-08-18-sublime.md"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"### C++11"
+			]
+		],
+		"width": 862.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 282.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
